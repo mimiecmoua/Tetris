@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    
+}
+.title {
+    font-family: 'Minecraft', sans-serif;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1a1a1a; /* Couleur sombre */
+    text-align: center;
+}
+
+.letter {
+    color: #00aa00; /* Vert Minecraft */
+}
+
+#start-button {
+    font-family: 'Minecraft', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #00aa00; /* Couleur verte Minecraft */
+    color: #ffffff; /* Couleur de texte blanche */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#start-button:hover {
+    background-color: #015b01;
+}
+.container {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100%; /* 100% de la hauteur de la fenêtre */
+   
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    background-color: #2a2a29;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.tetromino {
+    background-color: #ffb3ba;
+}
+
+.mini-grid {
+    
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2a2a29;
+    
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.minecraft-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a1a1a;
+    color: #00aa00;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 0;
+}
