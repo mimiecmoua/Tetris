@@ -2,7 +2,7 @@
 
 Tetris est une version simple du célèbre jeu de puzzle développée en HTML, CSS et JavaScript.
 
-![Capture d'écran du jeu Tetris](captureTetris.png)
+![Capture d'écran du jeu Tetris](CaptureTetris2.png)
 
 ## Comment jouer
 
