@@ -1,11 +1,18 @@
+
 body {
-    background-color: black;
+    background-image: url('galaxy-background.jpg');
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
     overflow: hidden;
+
     
 }
+h3 {
+    color: #00aa00;
+}
+
 .title {
     font-family: 'Minecraft', sans-serif;
     font-size: 48px;
@@ -19,12 +26,14 @@ body {
     color: #00aa00; /* Vert Minecraft */
 }
 
+
+
 #start-button {
     font-family: 'Minecraft', sans-serif;
     font-size: 18px;
     padding: 10px 20px;
     background-color: #4bf34b; /* Couleur verte Minecraft */
-    color: #ffffff; /* Couleur de texte blanche */
+    color: black; /* Couleur de texte blanche */
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -89,3 +98,6 @@ body {
     text-align: center;
     padding: 20px 0;
 }
+
+
+
